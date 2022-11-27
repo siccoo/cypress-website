@@ -1,9 +1,7 @@
 .footer-section {
-  /* overflow:hidden; */
   position: sticky;
   top: 100%;
   padding-bottom: 70px;
-  margin-right: -25px;
 }
 
 .footer-logo {
