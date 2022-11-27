@@ -1,0 +1,44 @@
+.home {
+  padding: 0px 0px 50px 0px;
+  background: #ffffff;
+}
+
+.home h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 140%;
+  color: #000000;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home h3 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.home p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #000000;
+  max-width: 518px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+.home-one {
+  padding: 0px 0px 50px 0px;
+}
