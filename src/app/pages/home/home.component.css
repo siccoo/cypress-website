@@ -42,3 +42,45 @@
 .home-one {
   padding: 0px 0px 50px 0px;
 }
+
+.home-two {
+  padding: 10px 60px 50px 60px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home-two {
+    padding: 0px 15px 0px 0px;
+  }
+}
+
+.home-two h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #333333;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home-two h6 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.home-two p {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: #9C9C9C;
+max-width: 580px;
+/* margin: auto; */
+}
+
+@media only screen and (max-width: 1024px) {
+  .home-two p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
