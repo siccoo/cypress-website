@@ -29,6 +29,10 @@
   color: #333333;
 }
 
+.navbar-nav .nav-item .nav-link.active-link {
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 1024px) {
   .navbar-nav .nav-item .nav-link {
     font-size: 12px;
